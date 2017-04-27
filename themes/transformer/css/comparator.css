@@ -1,0 +1,82 @@
+/********************************************************************
+					Compare Page Styles
+********************************************************************/
+table#product_comparison tbody tr td.product-block {
+  vertical-align: top; }
+table#product_comparison tbody tr td.td_empty,
+table#product_comparison tbody tr td.feature-name, table#product_comparison tbody tr.comparison_header {
+  background: #fbfbfb;
+  color: #333333; }
+table#product_comparison tbody tr td.comparison_infos div.center {
+  margin: 0 auto;
+  width: 80px; }
+table#product_comparison tbody tr td.td_empty {
+  vertical-align: bottom; }
+table#product_comparison .cmp_remove {
+  margin-top: 5px; }
+table#product_comparison .product-image-block {
+  display: inline-block;
+  position: relative; }
+  table#product_comparison .product-image-block .product_image {
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+    margin: 0 0 8px 0; }
+    table#product_comparison .product-image-block .product_image img {
+      width: 100%; }
+table#product_comparison .prices-container {
+  padding: 0 0 8px 0; }
+table#product_comparison .comparison_availability_statut {
+  display: none;
+  font-weight: 700;
+  color: #060; }
+table#product_comparison .product_discount {
+  padding-top: 8px; }
+table#product_comparison .product_desc {
+  padding: 0 0 1em; }
+table#product_comparison .comparison_unit_price {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-style: italic; }
+table#product_comparison .comparison_feature .product_name {
+  display: none; }
+
+.footer_link {
+  margin: 0 0 20px 0; }
+
+#stOCClose {
+  width: 29px !important;
+  height: 29px !important; }
+
+.stButton .stFb,
+.stButton .stTwbutton,
+.stButton .stMainServices,
+.stButton .stButton_gradient {
+  height: 22px !important; }
+
+.share strong {
+  display: block;
+  margin-bottom: 10px; }
+.share > div {
+  margin-bottom: 8px; }
+@media (min-width: 1200px) {
+  .share {
+    position: relative;
+    top: -350px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .share {
+    position: relative;
+    top: -260px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .share {
+    position: relative;
+    top: -245px; } }
+
+.stArrow {
+  display: none !important; }
+
+/***** IE code ****/
+.ie8 table#product_comparison .product-image-block .product_image img {
+  width: auto; }
+
+/**** responsive code ******/

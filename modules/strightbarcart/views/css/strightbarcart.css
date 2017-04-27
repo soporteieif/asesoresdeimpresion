@@ -1,0 +1,53 @@
+/* Special style for block cart*/
+
+#rightbar-cart_block {
+    display:none;
+	width: 300px;
+    padding:8px;
+}
+
+#rightbar-cart_block .quantity-formated {
+	display:inline-block;
+	margin-right:5px;
+	min-width:18px;
+}
+#rightbar-cart_block .remove_link {
+	float:right;
+	display:inline-block;
+	margin:1px 0 0 5px;
+	height:12px;
+	width:12px
+}
+#rightbar-cart_block .remove_link a {
+	display:inline-block;
+	height:12px;
+	width:12px;
+}
+#rightbar-cart_block .price {
+	float:right
+}
+/*#rightbar-products_list{overflow-x:hidden;overflow-y:auto;}*/
+#rightbar-products_list dt {padding-bottom:6px;margin-bottom:6px;border-bottom: 1px solid #e5e5e5;}
+#rightbar-products_list dt.last_item{border-bottom:none;}
+
+#rightbar-vouchers {
+	clear: both;
+	width:100%
+}
+#rightbar-vouchers tr td{
+	padding: 2px;
+}
+#rightbar-vouchers tr td.quantity{
+	margin-right:5px;
+	min-width:18px
+}
+#rightbar-vouchers tr td.delete{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+	width: 15px;
+}
+
+#rightbar-cart_block .cart_block_product_image{float:left;display:block;border:1px solid #e5e5e5;margin-right:10px;}
+#rightbar-cart_block_summary{padding-bottom:6px;margin-bottom:6px;border-bottom:1px solid #e5e5e5;}
+#rightbar-cart-buttons{padding-top:6px;margin-top:6px;border-top:1px solid #e5e5e5;}

@@ -1,0 +1,1 @@
+<a class="addToWishlist wishlistProd_{$id_product|intval}" href="#" rel="nofollow" data-pid="{$id_product|intval}" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', false, 1,this); return false;"><div><i class="icon-heart icon-0x icon_btn icon-mar-lr2"></i><span>{l s='Add to Wishlist' mod='stthemeeditor'}</span></div></a>

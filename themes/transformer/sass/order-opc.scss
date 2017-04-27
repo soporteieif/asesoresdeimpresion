@@ -1,0 +1,59 @@
+@import "compass";
+@import "theme_variables";
+
+/********************************************************
+			One-Page Checkout Styles
+********************************************************/
+
+#order-opc {
+	line-height: 20px;
+	.box {
+		padding-bottom: 20px;
+	}
+	.cart_navigation {
+	}
+	.page-heading.step-num {
+		span {
+			background: none repeat scroll 0 0 #666666;
+		    color: #FFFFFF;
+		    display: inline-block;
+		    padding: 5px 7px;
+		}
+	}
+	.form-group { 
+		.form-control {
+			max-width: 271px;
+		}
+	}
+	ul.bullet {
+		line-height: 22px;
+		margin-bottom: 1em;
+	}
+	.date-select {
+		padding-bottom: 10px;
+	}
+	.opc-add-save {
+		border-top: 1px solid $base-border-color;
+		margin-top: 20px;
+	}
+	#message {
+		margin-bottom: 35px;
+	}
+	#opc_payment_methods {
+	}
+	#opc_account {
+		margin-bottom: 30px;
+	}
+	.address_delivery.select {
+		margin-bottom: 15px;
+	}
+	#address_invoice_form.form-group {
+		margin-bottom: 30px;
+	}
+}
+
+#new_account_form .id_state, 
+#new_account_form .dni, 
+#new_account_form .postcode {
+	display: none;
+}

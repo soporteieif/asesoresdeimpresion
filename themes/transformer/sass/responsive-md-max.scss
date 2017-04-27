@@ -1,0 +1,75 @@
+@import "bootstrap_lib/variables";
+@import "bootstrap_lib/mixins";
+// Small grid
+//
+// Columns, offsets, pushes, and pulls for the small device range, from phones
+// to tablets.
+//
+// Note that `.col-sm-12` doesn't get floated on purpose—there's no need since
+// it's full-width.
+
+@media only screen and (min-width: $screen-md){   
+  #footer {
+    #newsletter_block_left {
+      .newsletter-input {
+        width: 150px !important;
+      }
+    }
+  }
+  ul.product_list.grid {
+    > li {
+      &.first-in-line {
+        clear: both;
+      }
+      &.first-line {
+        border-top: none;
+      }
+    }
+  }
+  .subcate_grid_view, .com_grid_view, .pro_itemlist, .featured_categories_list, #featured_itemlist, .blog_row_list, .blog_list_grid{
+    > li.first-item-of-line{
+      clear: both;
+    }
+  }
+  .style_content{
+    h1{
+      font-size: 6em;
+    }
+    h2{
+      font-size: 4em;
+    }
+    h3{
+      font-size: 3em;
+    }
+    h4{
+      font-size: 2em;
+    }
+    h5{
+      font-size: 1.5em;
+    }
+    h6{
+      font-size: 1.333em;
+    }
+  }
+  body#index .menu_ver_open_md .stadvancedmenu_vertical, body#index .sticky .menu_ver_open_md.current .stadvancedmenu_vertical{display: block!important; }
+  body#index .sticky .menu_ver_open_md .stadvancedmenu_vertical{display: none!important; }
+}
+
+@media only screen and (max-width: $screen-md-max) {
+  #homepage-slider .homeslider-description{
+    padding: 20px;
+    font-size: 0.8em;
+  }
+  .zoomdiv {
+    display: none !important;
+  }
+  .content_scene_cat {
+    .content_scene_cat_bg {
+      padding: 10px 10px 10px 15px;
+    }
+    span.category-name {
+        font-size: 25px;
+        line-height: 30px;
+    }
+  }
+}

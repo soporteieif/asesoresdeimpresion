@@ -1,0 +1,6 @@
+.stsocial_list{display:inline-block;}
+.stsocial_list li{padding-right:8px;padding-bottom:6px;}
+.stsocial_list.stsocial_list_footer_bottom li{padding-bottom:0;}
+.stsocial_list li a{display:inline-block;height:26px;line-height: 26px;min-width:26px; text-align:center; text-decoration:none; color:#666666; }
+.stsocial_list li a:hover{color:#00A161;}
+#stsocial_list_topbar{float:left;}

@@ -1,0 +1,138 @@
+/* lnk on detail product page */
+/* wishlist block */
+#wishlist_block #wishlist_block_list {
+  margin: 0 0 1em 0; }
+  #wishlist_block #wishlist_block_list dl.products.no-products {
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #e5e5e5; }
+    #wishlist_block #wishlist_block_list dl.products.no-products dt {
+      padding: 0;
+      border-top: none; }
+    #wishlist_block #wishlist_block_list dl.products.no-products dd {
+      display: none; }
+  #wishlist_block #wishlist_block_list dl.products dt {
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    margin-top: 6px;
+    padding-top: 6px; }
+  #wishlist_block #wishlist_block_list dl.products dd {
+    padding: 0 0 6px 0; }
+  #wishlist_block #wishlist_block_list dl.products dt.first_item {
+    padding-top: 0;
+    border-top: none;
+    margin-top: none; }
+  #wishlist_block #wishlist_block_list dl dt {
+    position: relative;
+    padding-right: 0; }
+  #wishlist_block #wishlist_block_list dl dd {
+    margin: 0 0 0 24px; }
+#wishlist_block .lnk .form-group {
+  margin: 0 0 10px 0; }
+  #wishlist_block .lnk .form-group select {
+    max-width: 192px; }
+    @media (max-width: 767px) {
+      #wishlist_block .lnk .form-group select {
+        width: 192px; } }
+#wishlist_block .ajax_cart_block_remove_link {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  position: absolute;
+  right: 0;
+  top: 6px; }
+#wishlist_block .cart_block_product_name {
+  width: 85%;
+  display: inline-block; }
+#wishlist_block .quantity-formated {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 15px; }
+
+#wishlist_block_list .price {
+  float: right; }
+
+/* page in my account ************************************************************************* */
+/* wishlistLinkTop */
+#module-blockwishlist-mywishlist .wishlistLinkTop ul.display_list {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px; }
+  #module-blockwishlist-mywishlist .wishlistLinkTop ul.display_list a {
+    display: inline-block;
+    font-weight: bold; }
+
+#module-blockwishlist-mywishlist .wishlistLinkTop li {
+  float: left;
+  display: block;
+  padding: 10px 10px 10px 0; }
+
+#module-blockwishlist-mywishlist .wishlistLinkTop #hideSendWishlist {
+  display: none; }
+
+#module-blockwishlist-mywishlist .wishlistLinkTop #showBoughtProducts,
+#module-blockwishlist-mywishlist .wishlistLinkTop #hideBoughtProductsInfos {
+  display: none; }
+
+/* wlp_bought ****************************************** */
+/* wlp_bought_list */
+ul.wlp_bought_list li {
+  margin: 0 0 30px 0;
+  /*> 992px*/
+  /*768px x 991px*/ }
+  ul.wlp_bought_list li .product_image {
+    padding: 9px;
+    border: 1px solid #e5e5e5;
+    margin: 0 0 20px 0;
+    max-width: 270px; }
+  ul.wlp_bought_list li .product-name {
+    margin: 0 0 10px 0;
+    padding: 0 20px 0 0; }
+    ul.wlp_bought_list li .product-name small {
+      display: block;
+      font-size: 11px; }
+      ul.wlp_bought_list li .product-name small a {
+        font-size: 11px; }
+  ul.wlp_bought_list li .product_infos {
+    position: relative; }
+  ul.wlp_bought_list li .btn_action .btn {
+    margin: 0 0 10px 0; }
+  @media (min-width: 992px) {
+    ul.wlp_bought_list li.first-in-line {
+      clear: left; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    ul.wlp_bought_list li.first-item-of-tablet-line {
+      clear: both; } }
+
+.wishlistLinkTop .submit {
+  margin: 0 0 30px 0; }
+
+ul.wlp_bought_list li .lnkdel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block; }
+
+#wishlist_button > .btn-group {
+  width: 80%; }
+
+ul.product_list.grid > li .product-container .functional-buttons .wishlist .popover {
+  padding: 0;
+  min-width: 160px; }
+  ul.product_list.grid > li .product-container .functional-buttons .wishlist .popover .popover-content {
+    padding: 0;
+    min-width: 158px; }
+  ul.product_list.grid > li .product-container .functional-buttons .wishlist .popover table {
+    margin-bottom: 2px; }
+    ul.product_list.grid > li .product-container .functional-buttons .wishlist .popover table td:hover {
+      background-color: #cccccc;
+      cursor: pointer; }
+
+.wishlist_change_button + .popover {
+  padding: 0;
+  min-width: 150px; }
+  .wishlist_change_button + .popover .popover-content {
+    padding: 0; }
+  .wishlist_change_button + .popover table {
+    margin-bottom: 2px; }
+    .wishlist_change_button + .popover table td:hover {
+      background-color: #cccccc;
+      cursor: pointer; }

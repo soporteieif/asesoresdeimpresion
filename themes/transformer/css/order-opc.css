@@ -1,0 +1,35 @@
+/********************************************************
+			One-Page Checkout Styles
+********************************************************/
+#order-opc {
+  line-height: 20px; }
+  #order-opc .box {
+    padding-bottom: 20px; }
+  #order-opc .page-heading.step-num span {
+    background: none repeat scroll 0 0 #666666;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 5px 7px; }
+  #order-opc .form-group .form-control {
+    max-width: 271px; }
+  #order-opc ul.bullet {
+    line-height: 22px;
+    margin-bottom: 1em; }
+  #order-opc .date-select {
+    padding-bottom: 10px; }
+  #order-opc .opc-add-save {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 20px; }
+  #order-opc #message {
+    margin-bottom: 35px; }
+  #order-opc #opc_account {
+    margin-bottom: 30px; }
+  #order-opc .address_delivery.select {
+    margin-bottom: 15px; }
+  #order-opc #address_invoice_form.form-group {
+    margin-bottom: 30px; }
+
+#new_account_form .id_state,
+#new_account_form .dni,
+#new_account_form .postcode {
+  display: none; }

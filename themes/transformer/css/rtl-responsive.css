@@ -1,0 +1,162 @@
+/********************************************************
+			Right to Left Styles
+********************************************************/
+@media only screen and (max-width: 991px) {
+  #footer-top .row > .col-sm-12, #footer-primary .row > .col-sm-12, #footer-secondary .row > .col-sm-12 {
+    float: none; } }
+@media only screen and (max-width: 767px) {
+  #footer .title_block {
+    padding: 10px 10px 20px 35px !important; }
+
+  #footer .title_block .opener {
+    background-position: left center!important; }
+    #footer .title_block .opener:hover {
+      background-position: left center!important; }
+
+  .product_list.list .pro_first_box {
+    float: none !important; }
+  .product_list.list .pro_second_box {
+    margin-right: 0 !important; }
+
+  #bottom_more_info_block .product_accordion .opener, #right_more_info_block .product_accordion .opener {
+    background-position: left center!important; }
+    #bottom_more_info_block .product_accordion .opener:hover, #right_more_info_block .product_accordion .opener:hover {
+      background-position: left center!important; }
+
+  table#cart_summary td .mobile_table_title, table#order-list td .mobile_table_title {
+    float: right !important; }
+
+  #shipping-detail-content table td .mobile_table_title, #order-detail-content table td .mobile_table_title {
+    float: right !important; }
+
+  table#pending_friends_list td .mobile_table_title, table#friends_i_sponsord_list td .mobile_table_title, table#sponsor_my_friends_list td .mobile_table_title, table#my_vouchers_list td .mobile_table_title {
+    float: right !important; }
+  table#cart_summary td .mobile_table_content, table#order-list td .mobile_table_content {
+    margin-left: 0 !important;
+    text-align: right !important;
+    margin-right: 130px; }
+
+  #shipping-detail-content table td .mobile_table_content, #order-detail-content table td .mobile_table_content {
+    margin-left: 0 !important;
+    text-align: right !important;
+    margin-right: 130px; }
+
+  .resp_table td:before {
+    float: right!important; }
+
+  #order-detail-content #cart_summary td.cart_unit .price {
+    text-align: right!important; }
+
+  table#pending_friends_list td .mobile_table_content, table#friends_i_sponsord_list td .mobile_table_content, table#sponsor_my_friends_list td .mobile_table_content, table#my_vouchers_list td .mobile_table_content {
+    margin-left: 0 !important;
+    text-align: right !important;
+    margin-right: 130px; }
+
+  #new_comment_form .product .product_name, #new_comment_form .product .product_desc {
+    margin-right: 0 !important; }
+
+  ul.step li a, ul.step li span {
+    border-left-width: 1px !important; }
+
+  body.is_rtl #account-creation_form .form-group > label, body.is_rtl #account-creation_form .form-stru > label,
+  body.is_rtl #opc_account_form .form-group > label, body.is_rtl #opc_account_form .form-stru > label,
+  body.is_rtl #new_account_form .form-group > label, body.is_rtl #new_account_form .form-stru > label,
+  body.is_rtl #address .form-group > label, body.is_rtl #address .form-stru > label,
+  body.is_rtl #add_address .form-group > label, body.is_rtl #add_address .form-stru > label {
+    text-align: right !important; }
+  body.is_rtl #address #uniform-newsletter, body.is_rtl #address #uniform-optin, body.is_rtl #address #uniform-invoice_address, body.is_rtl #address .submit, body.is_rtl #address .submit2, body.is_rtl #address span.form_info, body.is_rtl #address p.inline-infos, body.is_rtl #address span.inline-infos,
+  body.is_rtl #add_address #uniform-newsletter,
+  body.is_rtl #add_address #uniform-optin,
+  body.is_rtl #add_address #uniform-invoice_address,
+  body.is_rtl #add_address .submit,
+  body.is_rtl #add_address .submit2,
+  body.is_rtl #add_address span.form_info,
+  body.is_rtl #add_address p.inline-infos,
+  body.is_rtl #add_address span.inline-infos,
+  body.is_rtl #account-creation_form #uniform-newsletter,
+  body.is_rtl #account-creation_form #uniform-optin,
+  body.is_rtl #account-creation_form #uniform-invoice_address,
+  body.is_rtl #account-creation_form .submit,
+  body.is_rtl #account-creation_form .submit2,
+  body.is_rtl #account-creation_form span.form_info,
+  body.is_rtl #account-creation_form p.inline-infos,
+  body.is_rtl #account-creation_form span.inline-infos,
+  body.is_rtl #new_account_form #uniform-newsletter,
+  body.is_rtl #new_account_form #uniform-optin,
+  body.is_rtl #new_account_form #uniform-invoice_address,
+  body.is_rtl #new_account_form .submit,
+  body.is_rtl #new_account_form .submit2,
+  body.is_rtl #new_account_form span.form_info,
+  body.is_rtl #new_account_form p.inline-infos,
+  body.is_rtl #new_account_form span.inline-infos,
+  body.is_rtl #opc_account_form #uniform-newsletter,
+  body.is_rtl #opc_account_form #uniform-optin,
+  body.is_rtl #opc_account_form #uniform-invoice_address,
+  body.is_rtl #opc_account_form .submit,
+  body.is_rtl #opc_account_form .submit2,
+  body.is_rtl #opc_account_form span.form_info,
+  body.is_rtl #opc_account_form p.inline-infos,
+  body.is_rtl #opc_account_form span.inline-infos {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important; }
+
+  body#authentication.is_rtl .form-group > label, body#authentication.is_rtl .form-stru > label, body#identity.is_rtl .form-group > label, body#identity.is_rtl .form-stru > label {
+    text-align: right !important; }
+
+  body#identity.is_rtl #uniform-newsletter, body#identity.is_rtl #uniform-optin, body#identity.is_rtl #uniform-invoice_address, body#identity.is_rtl .submit, body#identity.is_rtl .submit2, body#identity.is_rtl span.form_info, body#identity.is_rtl p.inline-infos, body#identity.is_rtl span.inline-infos {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important; }
+
+  #header_right {
+    text-align: center !important; }
+
+  ul.product_list.list .pro_second_box {
+    margin-right: 0!important; }
+
+  /*******why I added this code? With it the cart page can infinity scroll down.
+  .resp_table{
+      thead tr {
+        top: 9999px;
+        left: 9999px;
+      }
+  }
+  */
+  .delivery_options table td {
+    text-align: right; }
+
+  body.is_rtl .pb-center-column,
+  body.is_rtl .pb-left-column {
+    float: none !important; }
+
+  #order-detail-content #cart_summary td {
+    text-align: right!important; }
+
+  .quantity_input_wrap, .cart_quantity_button {
+    padding: 0 33px!important; }
+
+  .product_quantity_down, .cart_quantity_down {
+    left: auto!important;
+    right: 0!important;
+    border-left-width: 0!important;
+    border-right-width: 1px!important; }
+
+  .product_quantity_up, .cart_quantity_up {
+    left: 0!important;
+    right: auto!important;
+    border-left-width: 1px!important;
+    border-right-width: 0!important; }
+
+  .primary_block .pb-center-column, .primary_block .pb-left-column {
+    float: none!important; }
+
+  .box-cart-bottom #quantity_wanted_p {
+    padding-left: 0!important; } }
+@media only screen and (max-width: 480px) {
+  .open_st_mobile_advanced_menu #body_wrapper, .open_st_mobile_advanced_menu #page_header.sticky_mh #mobile_bar, .open_blocksearch_mod #body_wrapper, .open_blocksearch_mod #page_header.sticky_mh #mobile_bar, .open_block_cart_mod #body_wrapper, .open_block_cart_mod #page_header.sticky_mh #mobile_bar, .open_st_mobile_menu #body_wrapper, .open_st_mobile_menu #page_header.sticky_mh #mobile_bar {
+    right: 250px!important; }
+  .open_st_mobile_advanced_menu #st-side-close, .open_blocksearch_mod #st-side-close, .open_block_cart_mod #st-side-close, .open_st_mobile_menu #st-side-close {
+    right: 251px!important; } }

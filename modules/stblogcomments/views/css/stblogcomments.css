@@ -1,0 +1,19 @@
+#comment_textarea,#comment_input p{margin-bottom:1.5em;}
+#comment_content{height:120px;padding:6px;width: 100%;}
+#comment_input input{width:94%;padding:4px 6px;}
+
+#st_blog_comment_list li,#mycomments_list li{padding-bottom:1em;margin-bottom: 1em;border-bottom:1px solid #e5e5ee;}
+#st_blog_comment_list li ul{padding-left: 60px;}
+#mycomments_list li:last-child,#mycomments_list li.last_item{border-bottom:none;margin-bottom: 0;}
+
+.comment_node{padding:1em 0;margin-bottom:1em;border-bottom: 1px solid #e5e5ee;}
+.comment_node_left{width:56px;float:left;}
+.comment_node_right{margin-left: 66px;}
+.st_blog_comment_list .comment_child{padding-left:40px;}
+
+#avatar_left{float: left;width:128px;height:128px;}
+#avatar_right{margin-left: 148px;}
+
+#stblog_leave_a_reply{display:none;}
+.st_blog_comment_list #stblog_leave_a_reply{display:block;}
+.st_blog_comment_list #stblog_leave_a_comment{display:none;}

@@ -1,0 +1,16 @@
+#mailalerts_block_account li {
+  margin-bottom: 1em;
+  border-bottom: 1px solid #e5e5e5; }
+  #mailalerts_block_account li.last_item {
+    border-bottom: none;
+    margin-bottom: 0; }
+  #mailalerts_block_account li .products-block-image {
+    float: left;
+    margin-right: 1em; }
+  #mailalerts_block_account li .remove {
+    float: right; }
+    #mailalerts_block_account li .remove i {
+      cursor: pointer; }
+
+#oos_customer_email {
+  max-width: 160px; }

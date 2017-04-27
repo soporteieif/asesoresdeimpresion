@@ -1,0 +1,194 @@
+@import "compass";
+@import "theme_variables";
+
+/********************************************************
+			Right to Left Styles
+********************************************************/
+//<992
+@media only screen and (max-width: $screen-sm-max) {
+    #footer-top .row > .col-sm-12, #footer-primary .row > .col-sm-12, #footer-secondary .row > .col-sm-12{
+        float: none;
+    }
+}
+//<768
+@media only screen and (max-width: $screen-xs-max) {
+    #footer .title_block {
+        padding: 10px 10px 20px 35px !important;
+    }
+    #footer{
+        .title_block {
+            .opener{
+                background-position: left center!important;
+                &:hover{
+                    background-position: left center!important;
+                }
+            }
+        }
+    }
+    .product_list.list {
+        .pro_first_box {
+            float: none !important;
+        }
+        .pro_second_box {
+            margin-right: 0 !important;
+        }
+    }
+    #bottom_more_info_block,#right_more_info_block{
+        .product_accordion{
+            .opener{
+              background-position: left center!important;
+              &:hover{
+                background-position: left center!important;
+              }
+            }
+        }
+    }
+    table {
+        &#cart_summary td .mobile_table_title, &#order-list td .mobile_table_title {
+            float: right !important;
+        }
+    }
+    #shipping-detail-content table td .mobile_table_title, #order-detail-content table td .mobile_table_title {
+        float: right !important;
+    }
+    table {
+        &#pending_friends_list td .mobile_table_title, &#friends_i_sponsord_list td .mobile_table_title, &#sponsor_my_friends_list td .mobile_table_title, &#my_vouchers_list td .mobile_table_title {
+            float: right !important;
+        }
+        &#cart_summary td .mobile_table_content, &#order-list td .mobile_table_content {
+            margin-left: 0 !important;
+            text-align: right !important;
+            margin-right: 130px;
+        }
+    }
+    #shipping-detail-content table td .mobile_table_content, #order-detail-content table td .mobile_table_content {
+        margin-left: 0 !important;
+        text-align: right !important;
+        margin-right: 130px;
+    }
+    .resp_table td:before{
+        float: right!important;
+    }
+    #order-detail-content {
+        #cart_summary {
+            td {
+                &.cart_unit {
+                    .price {
+                        text-align: right!important;
+                    }
+                }
+            }
+        }
+    }
+    table {
+        &#pending_friends_list td .mobile_table_content, &#friends_i_sponsord_list td .mobile_table_content, &#sponsor_my_friends_list td .mobile_table_content, &#my_vouchers_list td .mobile_table_content {
+            margin-left: 0 !important;
+            text-align: right !important;
+            margin-right: 130px;
+        }
+    }
+    #new_comment_form .product {
+        .product_name, .product_desc {
+            margin-right: 0 !important;
+        }
+    }
+
+    ul.step li a, ul.step li span{border-left-width: 1px !important;}
+
+    body.is_rtl{
+        #account-creation_form .form-group > label, #account-creation_form .form-stru > label,
+        #opc_account_form .form-group > label, #opc_account_form .form-stru > label,
+        #new_account_form .form-group > label, #new_account_form .form-stru > label,
+        #address .form-group > label, #address .form-stru > label,
+        #add_address .form-group > label, #add_address .form-stru > label{
+            text-align: right !important;
+        }
+        #address,
+        #add_address,
+        #account-creation_form,
+        #new_account_form,
+        #opc_account_form{
+            #uniform-newsletter, #uniform-optin, #uniform-invoice_address, .submit, .submit2, span.form_info, p.inline-infos, span.inline-infos{
+                margin-left: 0 !important;
+                padding-left: 0 !important;
+                margin-right: 0 !important;
+                padding-right: 0 !important;
+            }
+        }
+    }
+    body#authentication.is_rtl, body#identity.is_rtl{
+        .form-group > label, .form-stru > label{
+            text-align: right !important;
+        }
+    }
+    body#identity.is_rtl{
+        #uniform-newsletter, #uniform-optin, #uniform-invoice_address, .submit, .submit2, span.form_info, p.inline-infos, span.inline-infos{
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+            margin-right: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+    #header_right{text-align: center !important;}
+    ul.product_list.list{
+        .pro_second_box{
+          margin-right: 0!important;
+        }
+    } 
+    /*******why I added this code? With it the cart page can infinity scroll down.
+    .resp_table{
+        thead tr {
+          top: 9999px;
+          left: 9999px;
+        }
+    }
+    */
+    .delivery_options{
+        table{
+            td{
+                text-align: right;
+            }
+        }
+    }
+    body.is_rtl .pb-center-column, 
+    body.is_rtl .pb-left-column{
+        float: none !important;
+    }
+    #order-detail-content {
+        #cart_summary {
+          td {
+            text-align: right!important;
+            }
+        }
+    }
+    .quantity_input_wrap, .cart_quantity_button{
+        padding: 0 33px!important;
+    }
+    .product_quantity_down, .cart_quantity_down{
+        left: auto!important;
+        right: 0!important;
+        border-left-width: 0!important;
+        border-right-width: 1px!important;
+    }
+    .product_quantity_up, .cart_quantity_up{
+        left: 0!important;
+        right: auto!important;
+        border-left-width: 1px!important;
+        border-right-width: 0!important;
+    }
+    .primary_block .pb-center-column, .primary_block .pb-left-column{
+        float: none!important;
+    }
+    .box-cart-bottom #quantity_wanted_p{padding-left:0!important;}
+}
+//<480
+@media only screen and (max-width: $screen-xs) {
+    .open_st_mobile_advanced_menu, .open_blocksearch_mod, .open_block_cart_mod, .open_st_mobile_menu{
+        #body_wrapper, #page_header.sticky_mh #mobile_bar{
+            right: 250px!important;
+        }
+        #st-side-close{
+            right: 251px!important;
+        }
+    }
+}

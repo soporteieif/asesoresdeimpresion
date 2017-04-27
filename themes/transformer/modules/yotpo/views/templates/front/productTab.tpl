@@ -1,0 +1,1 @@
+<li><a href="#idTab-yotpo" class="idTabHrefShort">{$yotpoWidgetTabName|escape:'html':'UTF-8'}</a></li>

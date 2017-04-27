@@ -1,0 +1,23 @@
+@import '../../_theme_variables';
+.tags_block {
+	.block_content {
+		overflow:hidden;
+		a {
+			margin: 0 0.1em;
+			line-height: 1.5em;
+			padding: 2px;
+			&.tag_level3 { 
+				font-size: 1.333em;
+			}
+			&.tag_level2 { 
+				font-size: 1.166em;
+			}
+			&.tag_level1 { 
+				font-size: 1em;
+			}
+		}
+	}
+	.tags_wrap {
+		text-align: justify;
+	}
+}

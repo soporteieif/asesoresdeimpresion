@@ -1,0 +1,6 @@
+.bootstrap .table td.dragHandle .btn-group{
+    display:none!important;
+}
+.bootstrap .table td.dragHandle .dragGroup:before{
+    top:8px!important;
+}

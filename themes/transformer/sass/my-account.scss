@@ -1,0 +1,15 @@
+@import "compass";
+@import "theme_variables";
+#my-account {
+	.addresses-lists {
+	}
+	ul.myaccount-link-list {
+		li {
+			padding:6px 0;
+			.icon_wrap{
+				margin-right:6px;
+				vertical-align: middle;
+			}
+		}
+	}
+}

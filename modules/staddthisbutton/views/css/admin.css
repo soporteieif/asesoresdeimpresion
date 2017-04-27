@@ -1,0 +1,8 @@
+.advanced_attr ul{display:none;}
+.advanced_attr ul li{float:none;display:block;width:500px;padding:0.1em 0;}
+.advanced_attr ul li label{width:150px;}
+.advanced_attr ul li textarea{width:300px;height:28px;vertical-align:central;}
+.advanced_attr .info{display:block;width:500px;}
+.advanced_attr .addAttribute{color:#1BA6E5;}
+.double_select select{width:280px;height:150px !important;margin-bottom:5px;}
+.double_select .sel_title{color:#959595;}

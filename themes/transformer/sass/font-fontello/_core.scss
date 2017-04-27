@@ -1,0 +1,73 @@
+/* FONT AWESOME CORE
+ * -------------------------- */
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+/* makes sure icons active on rollover in links */
+a [class^="icon-"], a [class*=" icon-"] {
+  display: inline-block;
+}
+
+.icon-small:before {
+  font-size: 1.1666666666666666em;
+}
+
+.icon-large:before {
+  vertical-align: -2%;
+  font-size: 1.3333333333333333em;
+}
+
+.icon-0x {
+  font-size: 1.5em;
+}
+
+.icon-1x {
+  font-size: 1.75em;
+}
+
+.icon-2x {
+  font-size: 2.333em;
+}
+
+.icon-3x {
+  font-size: 3em;
+}
+
+.icon-4x {
+  font-size: 4em;
+}
+
+.icon-6x {
+  font-size: 6em;
+}
+
+.icon-mar-lr2 {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}

@@ -1,0 +1,43 @@
+@import "compass";
+@import "theme_variables";
+/**********************************************************
+				Authentication Styles
+**********************************************************/
+#account-creation_form .id_state,
+#account-creation_form .dni,
+#account-creation_form .postcode {
+	display: none;
+}
+
+#create-account_form {
+	.form-group {
+		margin: 0 0 6px 0;
+	}
+}
+
+#login_form {
+	min-height: 297px;
+}
+
+#create-account_form .form_content, #login_form .form_content {
+    min-height: 180px;
+    overflow: hidden;
+    &.has_social_login{
+        min-height: 250px
+    }
+}
+
+#create-account_form .form_content_inner, #login_form .form_content_inner {
+    padding: 0em 2em;
+}
+
+#create-account_form .submit, #login_form .submit {
+    padding: 6px 1em;
+    .btn_primary{
+    	width: 100%;
+    }
+}
+#create-account_form section, #login_form section{
+	border: 1px solid #CCCCCC;
+    margin-bottom: 1em;
+}
