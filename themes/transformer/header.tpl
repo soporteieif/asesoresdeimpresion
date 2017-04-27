@@ -123,7 +123,7 @@
 					</div>
 				</div>
 				{/if}
-
+Actualización 1
 				{assign var='sticky_mobile_header' value=Configuration::get('STSN_STICKY_MOBILE_HEADER')}
 	            <section id="mobile_bar" class="animated fast">
 	            	<div class="container">
